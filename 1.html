@@ -6,12 +6,13 @@
     <title>Flex box</title>
     <style>
         div{
-            align-content: center;
-            background-color: black;
+            padding: 40px;
+            background-color: rgb(133, 205, 24);
             color: aliceblue;
         }
         nav{
             display:flex;
+            align-items:center;
         }
         @media(max-width:768px) {
             nav{
@@ -25,14 +26,17 @@
         align-content: center;
     gap:10px;}
         }
+                h3{
+            align-self:center;
+        }
     </style>
 </head>
 <body>
     <div>
         <nav>
-        <a href="./about.html"><h3>about    </h3></a>
-        <a href="./services.html"><h3>services   </h3></a>
-        <a href="./contact.html"><h3>contact   </h3></a>
+        <a href="./about.html"><h3>about</h3></a>
+        <a href="./services.html"><h3>services</h3></a>
+        <a href="./contact.html"><h3>contact</h3></a>
         </nav>
     </div>
 
